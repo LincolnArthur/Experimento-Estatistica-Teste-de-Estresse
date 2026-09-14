@@ -1,0 +1,10 @@
+# Build do NetBeans/Ant
+Experimento/build/
+Experimento/dist/
+Experimento/nbproject/private/
+
+# .class soltos, caso alguem compile fora da pasta build/
+*.class
+
+# Arquivos de trava do LibreOffice/Word ao editar um documento aberto
+.~lock.*#
