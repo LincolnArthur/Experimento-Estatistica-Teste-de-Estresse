@@ -6,8 +6,9 @@ import java.io.*;
 
 public class Experimento {
 
-    // Nome do arquivo onde os resultados do teste de estresse são gravados.
-    private static final String ARQUIVO_CSV = "resultados_estresse.csv";
+    // Onde os resultados do teste de estresse são gravados (pasta dados/ na raiz do repositorio).
+    // Caminho relativo pensado para rodar com a pasta Experimento/ como diretorio de trabalho.
+    private static final String ARQUIVO_CSV = "../dados/resultados_estresse.csv";
     private static final String CABECALHO_CSV =
             "estrutura,tamanho,repeticao,tempoInsercaoNs,tempoBuscaNs,memoriaBytes\n";
 
